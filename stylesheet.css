@@ -1,7 +1,7 @@
-<META http-equiv="Content-Style-Type" content="text/css">
-
-<HEAD>
- <STYLE type="text/css">
-   H1 {border-width: 1; border: solid; text-align: center}
- </STYLE>
-</HEAD>
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
