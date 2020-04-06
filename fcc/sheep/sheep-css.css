@@ -1,31 +1,44 @@
 #navbar {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eee;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  #navbar a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
-  }
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+#navbar a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+#navbar a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+#navbar a:active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p, li, a {
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;}
+
+#main-doc {
+  margin-left: 300px; /* Same as the width of the sidenav */
+}
+@media {
   
-  #navbar a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-  }
-  
-  #navbar a:active {
-      background-color: #4CAF50; /* Add a green color to the "active/current" link */
-    color: white;
-  }
-  
-  #main-doc {
-    margin-left: 200px; /* Same as the width of the sidenav */
-  }
+}
