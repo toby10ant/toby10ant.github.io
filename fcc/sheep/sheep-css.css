@@ -1,44 +1,48 @@
 #navbar {
-  height: 100%;
-  width: 300px;
-  position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
   background-color: #eee;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 20px; 
+}
+@media screen and (min-width: 850px) {
+#navbar {
+height: 100%;
+width: 300px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #eee;
+overflow-x: hidden;
+padding-top: 20px;
+}
+#main-doc {
+margin-left: 300px; /* Same as the width of the sidenav */
+}
 }
 #navbar a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+background-color: #eee; /* Grey background color */
+color: black; /* Black text color */
+display: block; /* Make the links appear below each other */
+padding: 12px; /* Add some padding */
+text-decoration: none; /* Remove underline from links */
 }
 
 #navbar a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
 #navbar a:active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
-  color: white;
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+color: white;
 }
 
 h1 {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 700;
-  font-size: 50px;
+font-family: 'Inconsolata', monospace;
+font-weight: 700;
+font-size: 200%;
 }
 
 p, li, a {
-  font-family: 'Inconsolata', monospace;
-  font-size: 15px;}
-
-#main-doc {
-  margin-left: 300px; /* Same as the width of the sidenav */
-}
-@media {
-  
+font-family: 'Inconsolata', monospace;
 }
