@@ -1,7 +1,6 @@
 #navbar {
   z-index: 1;
   background-color: #eee;
-  overflow-x: hidden;
   text-align: center;
   position: fixed;
   top: 0;
@@ -9,7 +8,7 @@
   width: 100%;
 }
 #main-doc {
-margin-top: 300px; /* Same as the width of the sidenav */
+padding-top: 300px; /* Same as the width of the sidenav */
 }
 @media screen and (min-width: 850px) {
 #navbar {
@@ -24,6 +23,7 @@ overflow-x: hidden;
 padding-top: 20px;
 }
 #main-doc {
+padding-top: 0px;
 margin-left: 300px; /* Same as the width of the sidenav */
 }
 }
@@ -54,6 +54,6 @@ h2 {
 text-align: center;
 }
 
-p, li, a {
+p, li, a, h2 {
 font-family: 'Inconsolata', monospace;
 }
