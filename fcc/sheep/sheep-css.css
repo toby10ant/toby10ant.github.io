@@ -4,6 +4,8 @@
   overflow-x: hidden;
   text-align: center;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 @media screen and (min-width: 850px) {
@@ -48,3 +50,4 @@ font-size: 200%;
 p, li, a {
 font-family: 'Inconsolata', monospace;
 }
+
