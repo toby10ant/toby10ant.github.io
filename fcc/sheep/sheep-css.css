@@ -8,6 +8,9 @@
   left: 0;
   width: 100%;
 }
+#main-doc {
+margin-top: 300px; /* Same as the width of the sidenav */
+}
 @media screen and (min-width: 850px) {
 #navbar {
 height: 100%;
@@ -47,7 +50,10 @@ font-weight: 700;
 font-size: 200%;
 }
 
+h2 {
+text-align: center;
+}
+
 p, li, a {
 font-family: 'Inconsolata', monospace;
 }
-
