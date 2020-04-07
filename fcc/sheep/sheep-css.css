@@ -2,7 +2,9 @@
   z-index: 1;
   background-color: #eee;
   overflow-x: hidden;
-  padding-top: 20px; 
+  text-align: center;
+  position: fixed;
+  width: 100%;
 }
 @media screen and (min-width: 850px) {
 #navbar {
